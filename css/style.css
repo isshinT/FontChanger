@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f8ff;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #0077cc;
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 24px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#fontButtons {
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#fontButtons button {
+    margin: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #0077cc;
+    border-radius: 4px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+#fontButtons button:hover {
+    background-color: #0077cc;
+    color: white;
+}
+
+#output {
+    border: 1px solid #ccc;
+    min-height: 120px;
+    padding: 15px;
+    font-size: 32px;
+    background: white;
+}
